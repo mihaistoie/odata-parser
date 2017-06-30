@@ -1,0 +1,30 @@
+{
+  "name": "odata-parser",
+  "description": "Odata Filter Parser",
+  "version": "1.0.0",
+  "author": "Mihai STOIE <mihaistoie@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "latest",
+    "@types/node": "latest",
+    "@types/power-assert": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-tslint": "latest",
+    "gulp-typescript": "latest",
+    "merge2": "latest",
+    "mocha": "latest",
+    "source-map-support": "latest",
+    "tslint": "latest",
+    "typescript": "2.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mihaistoie/odata-parser"
+  },
+  "types": "./definitions/index.d.ts",
+  "scripts": {
+    "test": "mocha  test/**/*.specs.js",
+    "help": "mocha  test/**/helper.specs.js"
+  }
+}
